@@ -40,3 +40,33 @@ typing_extensions==4.12.2
 tzdata==2025.1
 urllib3==2.3.0
 watchdog==6.0.0
+streamlit
+pandas
+numpy
+matplotlib.pyplot
+matplotlib
+seaborn
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import StandardScaler
+from sklearn.metrics import classification_report, confusion_matrix
+from lightgbm import LGBMClassifier
+from imblearn.over_sampling import ADASYN
+import warnings
+from pandas.api.types import CategoricalDtype
+from imblearn.over_sampling import BorderlineSMOTE
+from sklearn.exceptions import UndefinedMetricWarning
+from collections import Counter
+import shap
+from pathlib import Path
+from catboost import CatBoostClassifier
+from sklearn.decomposition import PCA
+from scipy.stats import f, norm
+import time
+import koreanize_matplotlib
+from streamlit_option_menu import option_menu
+import matplotlib.patches as patches
+import pickle 
+import json
+
+
+
